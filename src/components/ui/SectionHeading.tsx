@@ -83,7 +83,7 @@ const SectionHeading: React.FC<SectionHeadingProps> = ({
       
       <motion.div 
         variants={lineVariants}
-        className={`h-1 bg-primary-600 dark:bg-primary-500 rounded-full mb-4 ${center ? 'mx-auto' : ''}`}
+        className={`h-1 bg-primary-500 dark:bg-primary-500 rounded-full mb-4 ${center ? 'mx-auto' : ''}`}
       />
       
       {subtitle && (
