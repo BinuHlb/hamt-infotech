@@ -7,6 +7,7 @@ import PortfolioSection from '../components/sections/PortfolioSection';
 import TestimonialsSection from '../components/sections/TestimonialsSection';
 import StatsSection from '../components/sections/StatsSection';
 import CTASection from '../components/sections/CTASection';
+import PartnersSlider from '../components/sections/ClientSection';
 
 const Home: React.FC = () => {
   return (
@@ -25,7 +26,7 @@ const Home: React.FC = () => {
         secondaryButtonLink="/services"
         backgroundVideo="assets/videos/bg-vdo.mp4"
       />
-      
+      <PartnersSlider />
       <ServicesSection compact={true} />
       
       <AboutSection />

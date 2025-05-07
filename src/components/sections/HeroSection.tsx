@@ -45,7 +45,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({
   };
 
   return (
-    <section className="relative h-[80vh] flex items-center pt-24 pb-16 overflow-hidden">
+    <section className="relative h-[88vh] flex items-center pt-24 pb-16 overflow-hidden">
       {/* Background video or image */}
       {backgroundVideo ? (
         <video

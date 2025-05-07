@@ -34,7 +34,7 @@ const TestimonialsSection: React.FC = () => {
   };
 
   return (
-    <section ref={ref} className="section bg-primary-900 py-24">
+    <section ref={ref} className="section bg-gray-900 py-24">
       <div className="container">
         <SectionHeading
           title="What Our Clients Say"

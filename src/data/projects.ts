@@ -53,67 +53,8 @@ export const projects: Project[] = [
     solution: "We created a modern, visually dynamic website with intuitive navigation and integrated a custom booking system. The responsive design ensures a seamless experience across all devices.",
     results: "The new website led to a 45% increase in online bookings and a 30% reduction in administrative time spent managing appointments."
   },
-  {
-    id: 'eco-harvest',
-    title: 'Eco Harvest',
-    description: 'Brand identity for an organic food producer, including logo, packaging design, and marketing materials.',
-    category: 'branding',
-    categoryLabel: 'Branding',
-    client: 'Eco Harvest',
-    year: 2023,
-    imageUrl: 'https://images.pexels.com/photos/1268101/pexels-photo-1268101.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-    featuredImageUrl: 'https://images.pexels.com/photos/1268101/pexels-photo-1268101.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-    detailImages: [
-      'https://images.pexels.com/photos/4505166/pexels-photo-4505166.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-      'https://images.pexels.com/photos/8105035/pexels-photo-8105035.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-      'https://images.pexels.com/photos/5946079/pexels-photo-5946079.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
-    ],
-    testimonial: {
-      quote: "The brand identity CreativeX created for us perfectly captures our commitment to sustainability and quality. Our products now stand out on shelves and our sales have increased significantly.",
-      author: "Maria Rodriguez",
-      role: "Founder, Eco Harvest"
-    },
-    services: [
-      "Branding",
-      "Packaging Design",
-      "Print Design",
-      "Marketing Collateral"
-    ],
-    challenge: "Eco Harvest needed a comprehensive brand identity that would communicate their commitment to organic, sustainable farming practices and help their products stand out in a competitive market.",
-    solution: "We developed a fresh, nature-inspired visual identity with a distinctive logo, earthy color palette, and custom illustrations of produce. The design system was applied across packaging, marketing materials, and digital touchpoints.",
-    results: "The new branding led to a 60% increase in retail distribution and a 35% increase in sales within the first six months."
-  },
-  {
-    id: 'wavelength-app',
-    title: 'Wavelength App',
-    description: 'UI/UX design for a music streaming application, focusing on user experience, interface design, and usability testing.',
-    category: 'ui-ux',
-    categoryLabel: 'UI/UX Design',
-    client: 'Wavelength Music',
-    year: 2022,
-    imageUrl: 'https://images.pexels.com/photos/3944311/pexels-photo-3944311.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-    featuredImageUrl: 'https://images.pexels.com/photos/3944311/pexels-photo-3944311.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-    detailImages: [
-      'https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-      'https://images.pexels.com/photos/6686448/pexels-photo-6686448.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-      'https://images.pexels.com/photos/5077039/pexels-photo-5077039.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
-    ],
-    testimonial: {
-      quote: "The UI/UX design for our app has been a game-changer. User engagement has skyrocketed, and we've received overwhelmingly positive feedback about the intuitive interface.",
-      author: "David Chen",
-      role: "Product Manager, Wavelength Music"
-    },
-    services: [
-      "UI/UX Design",
-      "User Research",
-      "Wireframing",
-      "Prototyping",
-      "Usability Testing"
-    ],
-    challenge: "Wavelength needed a music streaming app interface that would stand out in a crowded market while providing an intuitive, delightful user experience for discovering and enjoying music.",
-    solution: "We conducted extensive user research to understand listener habits and pain points, then designed a clean, visually striking interface with innovative navigation and personalization features.",
-    results: "The redesigned app saw a 70% increase in user engagement time, a 40% reduction in user dropoff, and a 50% increase in premium subscription conversions."
-  },
+  
+  
   {
     id: 'quantum-finance',
     title: 'Quantum Finance Platform',
