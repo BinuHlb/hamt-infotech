@@ -125,7 +125,7 @@ const ContactSection: React.FC = () => {
                 </div>
                 <div>
                   <h4 className="text-lg font-semibold text-gray-900 dark:text-white">Email Us</h4>
-                  <p className="text-gray-600 dark:text-gray-300">hello@creativex.studio</p>
+                  <p className="text-gray-600 dark:text-gray-300">Info@hamtinfotech.com</p>
                 </div>
               </div>
               
@@ -135,7 +135,7 @@ const ContactSection: React.FC = () => {
                 </div>
                 <div>
                   <h4 className="text-lg font-semibold text-gray-900 dark:text-white">Call Us</h4>
-                  <p className="text-gray-600 dark:text-gray-300">(555) 123-4567</p>
+                  <p className="text-gray-600 dark:text-gray-300">+971 4327 7775</p>
                 </div>
               </div>
               
@@ -146,8 +146,7 @@ const ContactSection: React.FC = () => {
                 <div>
                   <h4 className="text-lg font-semibold text-gray-900 dark:text-white">Visit Us</h4>
                   <p className="text-gray-600 dark:text-gray-300">
-                    123 Creative Avenue<br />
-                    Design District, CA 91234
+                  Level 16, City Tower 2, Sheikh Zayed Road<br/> Post Box No. 32665, Dubai – U.A.E
                   </p>
                 </div>
               </div>

@@ -39,7 +39,7 @@ export const projects: Project[] = [
       'https://images.pexels.com/photos/4162454/pexels-photo-4162454.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
     ],
     testimonial: {
-      quote: "CreativeX transformed our online presence with a website that perfectly reflects our brand's energy and values. The new booking system has significantly increased our class attendance.",
+      quote: "HamtInfotech transformed our online presence with a website that perfectly reflects our brand's energy and values. The new booking system has significantly increased our class attendance.",
       author: "Alex Thompson",
       role: "Marketing Director, Fusion Fitness"
     },
@@ -71,7 +71,7 @@ export const projects: Project[] = [
       'https://images.pexels.com/photos/8370424/pexels-photo-8370424.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
     ],
     testimonial: {
-      quote: "The web application CreativeX developed has revolutionized how we manage client portfolios. The system is robust, secure, and has significantly improved our operational efficiency.",
+      quote: "The web application HamtInfotech developed has revolutionized how we manage client portfolios. The system is robust, secure, and has significantly improved our operational efficiency.",
       author: "Sarah Johnson",
       role: "CTO, Quantum Finance"
     },
