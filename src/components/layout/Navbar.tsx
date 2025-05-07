@@ -117,8 +117,8 @@ const Navbar: React.FC = () => {
                 className="flex items-center text-2xl font-bold text-gray-900 dark:text-white"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
-                <Sparkles className="h-8 w-8 mr-2 text-primary-600 dark:text-primary-400" />
-                <span>CreativeX</span>
+                <img src={Logo} alt="HamtInfotech Logo" className="h-8 w-8 mr-2" />
+                <span>HamtInfotech</span>
               </Link>
               <button
                 onClick={() => setIsMobileMenuOpen(false)}
