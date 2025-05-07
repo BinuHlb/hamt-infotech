@@ -34,7 +34,7 @@ const ServicesSection: React.FC<ServicesSectionProps> = ({ compact = false }) =>
           {displayServices.map((service, index) => (
             <Card key={service.id} delay={index}>
               <div className="p-6">
-                <div className="flex items-center justify-center w-16 h-16 mb-6 rounded-lg bg-primary-100 dark:bg-primary-900/30 text-primary-600 dark:text-primary-400">
+                <div className="flex items-center justify-center w-16 h-16 mb-6 rounded-lg bg-primary-500 dark:bg-primary-900/30 text-white dark:text-primary-400">
                   {React.createElement(service.icon, { size: 32 })}
                 </div>
                 
