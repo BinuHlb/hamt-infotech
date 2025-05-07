@@ -41,8 +41,8 @@ const AboutSection: React.FC = () => {
           >
             <motion.div variants={itemVariants}>
               <SectionHeading
-                title="About Our Agency"
-                subtitle="We're a team of creative minds dedicated to crafting exceptional digital experiences."
+                title="About Hamt Infotech"
+                subtitle="We're a team of technology experts passionate about helping businesses succeed in the digital age."
               />
             </motion.div>
             
@@ -50,14 +50,14 @@ const AboutSection: React.FC = () => {
               variants={itemVariants}
               className="text-gray-600 dark:text-gray-300 mb-6"
             >
-              Founded in 2012, CreativeX has grown from a small design studio to a full-service creative agency. We combine strategic thinking, cutting-edge technology, and beautiful design to help our clients stand out in the digital landscape.
+              HAMT Infotech is a global technology solutions provider, born from a legacy of excellence in business advisory. Our story began in 2007 as the IT and business consulting arm of HLB HAMT, a leading Audit and Tax advisory firm in the UAE. Initially focused on addressing internal IT needs — including enterprise application development, process automation, digital transformation, CRM, and IT audits — we quickly became a catalyst for innovation within the organisation.
             </motion.p>
             
             <motion.p 
               variants={itemVariants}
               className="text-gray-600 dark:text-gray-300 mb-8"
             >
-              Our team of experienced designers, developers, and strategists are passionate about creating impactful digital solutions that drive results. We believe in collaboration, innovation, and delivering exceptional value to our clients.
+              Recognising the growing demand for high-impact technology solutions across industries, the leadership made a pivotal decision in 2012 to establish HAMT Infotech as an independent entity. This marked the beginning of our journey as a technology company with a clear purpose: to help businesses around the world transform through innovation, intelligence, and integrity.
             </motion.p>
             
             <motion.div variants={itemVariants} className="mb-8 grid grid-cols-1 md:grid-cols-3 gap-4">
@@ -96,7 +96,7 @@ const AboutSection: React.FC = () => {
             {/* Main image */}
             <div className="rounded-xl overflow-hidden shadow-xl">
               <img 
-                src="https://images.pexels.com/photos/3182812/pexels-photo-3182812.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
+                src="https://hamtinfotech.com/wp-content/uploads/2024/10/h1-mask2-1.png" 
                 alt="Creative team working together" 
                 className="w-full h-auto object-cover"
               />
@@ -108,7 +108,7 @@ const AboutSection: React.FC = () => {
             </div>
             
             <div className="absolute -top-4 -right-4 w-20 h-20 bg-accent-500 rounded-lg shadow-lg flex items-center justify-center transform -rotate-12">
-              <div className="text-white font-bold text-xl">10+</div>
+              <div className="text-white font-bold text-xl">15+</div>
             </div>
             
             <motion.div 
@@ -117,7 +117,7 @@ const AboutSection: React.FC = () => {
               animate={inView ? { y: 0, opacity: 1 } : { y: 20, opacity: 0 }}
               transition={{ duration: 0.5, delay: 0.6 }}
             >
-              <p className="font-semibold text-gray-900 dark:text-white">Award-winning agency</p>
+              <p className="font-semibold text-gray-900 dark:text-white">Empower your Business</p>
             </motion.div>
           </motion.div>
         </div>

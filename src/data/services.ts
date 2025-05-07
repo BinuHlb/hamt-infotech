@@ -43,9 +43,9 @@ export interface Service {
 
 export const services: Service[] = [
   {
-    id: 'web-design',
-    title: 'Web Design',
-    shortDescription: 'Stunning, responsive websites that engage visitors and drive conversions.',
+    id: 'erp-consulting',
+    title: 'ERP Consulting',
+    shortDescription: 'With our comprehensive end-to-end ERP software configuration and support services,',
     description: 'We create beautiful, user-friendly websites that are optimized for performance and conversions across all devices.',
     fullDescription: 'Our web design service combines aesthetics with functionality to create websites that not only look great but also perform exceptionally well. We focus on creating intuitive user experiences, responsive layouts, and visually appealing designs that reflect your brand identity and engage your target audience.',
     icon: Monitor,
@@ -104,185 +104,187 @@ export const services: Service[] = [
     ]
   },
   {
-    id: 'branding',
-    title: 'Branding',
-    shortDescription: 'Distinctive brand identities that resonate with your audience and stand out from the competition.',
-    description: 'We develop comprehensive brand identities that communicate your values and connect with your target audience.',
-    fullDescription: 'Our branding service helps you establish a strong, memorable identity that resonates with your target audience and differentiates you from competitors. We develop comprehensive brand strategies, visual identities, and guidelines that ensure consistency across all touchpoints and help build lasting connections with your customers.',
-    icon: PenTool,
-    imageUrl: 'https://images.pexels.com/photos/6224/hands-people-woman-working.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    id: 'digital-transformation',
+    title: 'Digital Transformation',
+    shortDescription: 'Transform your business with our comprehensive digital transformation services.',
+    description: 'We help businesses leverage technology to improve processes, enhance customer experiences, and drive innovation.',
+    fullDescription: 'Our digital transformation service empowers businesses to adapt to the rapidly changing digital landscape. We analyze your current processes, identify areas for improvement, and implement technology solutions that enhance efficiency, customer engagement, and overall performance. Our goal is to help you harness the power of technology to drive growth and innovation.',
+    icon: Laptop,
+    imageUrl: 'https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
     keyPoints: [
-      'Brand strategy development and positioning',
-      'Logo design and visual identity systems',
-      'Typography and color palette selection',
-      'Brand voice and messaging guidelines',
-      'Brand collateral design (business cards, letterheads, etc.)',
-      'Brand style guides for consistent implementation'
+      'Business process analysis and optimization',
+      'Technology assessment and roadmap development',
+      'Implementation of digital tools and platforms',
+      'Change management and training programs',
+      'Data analytics and insights generation',
+      'Continuous improvement and innovation strategies'
     ],
     process: [
       {
-        title: 'Research',
-        description: 'We analyze your market, competitors, and target audience to identify opportunities for differentiation.'
+        title: 'Assessment',
+        description: 'We evaluate your current processes, technology, and market position to identify opportunities for improvement.'
       },
       {
-        title: 'Strategy',
-        description: 'We develop a brand strategy that defines your positioning, values, personality, and messaging.'
+        title: 'Strategy Development',
+        description: 'We create a tailored digital transformation strategy that aligns with your business goals and objectives.'
       },
       {
-        title: 'Identity Design',
-        description: 'We create visual elements like logos, color palettes, and typography that reflect your brand essence.'
+        title: 'Implementation',
+        description: 'We deploy the necessary technology solutions and processes to drive your digital transformation.'
       },
       {
-        title: 'Applications',
-        description: 'We apply your brand identity across various touchpoints to ensure consistency and impact.'
+        title: 'Training & Support',
+        description: 'We provide training and ongoing support to ensure your team is equipped to leverage new technologies effectively.'
       },
       {
-        title: 'Guidelines',
-        description: 'We develop comprehensive guidelines to help you maintain brand consistency in the future.'
+        title: 'Continuous Improvement',
+        description: 'We monitor performance and make data-driven adjustments to optimize your digital transformation efforts.'
       }
     ],
     benefits: [
       {
-        icon: Briefcase,
-        title: 'Brand Recognition',
-        description: 'A strong visual identity makes your brand instantly recognizable and memorable to your target audience.'
-      },
-      {
-        icon: Share2,
-        title: 'Increased Trust',
-        description: 'Consistent branding builds credibility and trust with your customers, leading to stronger relationships.'
+        icon: BarChart,
+        title: 'Increased Efficiency',
+        description: 'Streamlined processes and automation reduce manual work, saving time and resources.'
       },
       {
         icon: LineChart,
-        title: 'Premium Positioning',
-        description: 'Strategic branding allows you to command higher prices and attract quality customers who value your offerings.'
+        title: 'Enhanced Customer Experience',
+        description: 'Digital tools enable personalized interactions and improved service delivery, leading to higher customer satisfaction.'
+      },
+      {
+        icon: Database,
+        title: 'Data-Driven Decisions',
+        description: 'Access to real-time data and analytics empowers informed decision-making and strategic planning.'
       },
       {
         icon: Laptop,
-        title: 'Cohesive Experience',
-        description: 'Unified branding creates a seamless experience across all customer touchpoints, strengthening brand perception.'
-      }
-    ]
-  },
-  {
-    id: 'ui-ux',
-    title: 'UI/UX Design',
-    shortDescription: 'Intuitive interfaces and seamless user experiences that delight and retain users.',
-    description: 'We craft user interfaces and experiences that are intuitive, engaging, and aligned with user needs and business goals.',
-    fullDescription: 'Our UI/UX design service focuses on creating digital experiences that users love. We combine user research, information architecture, interaction design, and visual design to create interfaces that are not only beautiful but also intuitive and efficient. Our approach is centered on understanding user needs and behaviors to create experiences that drive engagement and conversion.',
-    icon: Layout,
-    imageUrl: 'https://images.pexels.com/photos/196645/pexels-photo-196645.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-    keyPoints: [
-      'User research and persona development',
-      'Information architecture and user flows',
-      'Wireframing and prototyping',
-      'Visual design and UI component systems',
-      'Interaction design and animations',
-      'Usability testing and optimization'
-    ],
-    process: [
-      {
-        title: 'Research',
-        description: 'We conduct user research to understand needs, goals, and pain points that inform the design process.'
-      },
-      {
-        title: 'Information Architecture',
-        description: 'We organize content and functionality in a logical, intuitive structure that supports user goals.'
-      },
-      {
-        title: 'Wireframing',
-        description: 'We create low-fidelity representations of the interface to establish layout and functionality before visual design.'
-      },
-      {
-        title: 'Visual Design',
-        description: 'We develop the visual aspects of the interface, including color, typography, and UI components.'
-      },
-      {
-        title: 'Prototyping & Testing',
-        description: 'We create interactive prototypes and test them with users to validate designs and identify improvements.'
-      }
-    ],
-    benefits: [
-      {
-        icon: LineChart,
-        title: 'Increased Conversions',
-        description: 'User-centered design reduces friction in the user journey, leading to higher conversion rates.'
-      },
-      {
-        icon: Smartphone,
-        title: 'Reduced Support Costs',
-        description: 'Intuitive interfaces minimize user confusion and errors, reducing the need for customer support.'
-      },
-      {
-        icon: Share2,
-        title: 'Enhanced User Satisfaction',
-        description: 'Thoughtful UX design creates positive experiences that build loyalty and encourage user retention.'
-      },
-      {
-        icon: BarChart,
         title: 'Competitive Advantage',
-        description: 'Superior user experiences differentiate your product in the market and attract users from competitors.'
+        description: 'Embracing digital transformation positions your business ahead of competitors in a rapidly evolving market.'
       }
     ]
+    
   },
   {
-    id: 'development',
-    title: 'Web Development',
-    shortDescription: 'Custom web applications and websites built with the latest technologies and best practices.',
-    description: 'We build robust, scalable websites and web applications that deliver exceptional performance and functionality.',
-    fullDescription: 'Our web development service transforms designs into fully functional, high-performance websites and applications. We use modern technologies and best practices to create solutions that are fast, secure, and scalable. Whether you need a simple website, a complex web application, or an e-commerce platform, our development team has the expertise to bring your vision to life.',
-    icon: Code,
-    imageUrl: 'https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    id: 'it-audit',
+    title: 'IT Audit & Assessment',
+    shortDescription: 'Comprehensive IT audits that identify risks, ensure compliance, and enhance security.',
+    description: 'We conduct thorough IT audits to assess your systems, processes, and security measures, ensuring compliance and risk mitigation.',
+    fullDescription: 'Our IT audit and assessment service provides a comprehensive evaluation of your IT systems, processes, and security measures. We identify vulnerabilities, assess compliance with industry standards, and provide actionable recommendations to enhance your IT infrastructure. Our goal is to help you mitigate risks, improve security, and ensure that your technology aligns with your business objectives.',
+    icon: Database,
+    imageUrl: 'https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
     keyPoints: [
-      'Custom website development',
-      'Web application development',
-      'E-commerce solutions',
-      'Content management systems',
-      'API development and integration',
-      'Performance optimization and security'
+      'Comprehensive IT audits and assessments',
+      'Risk management and mitigation strategies',
+      'Compliance with industry standards and regulations',
+      'Vulnerability assessments and penetration testing',
+      'IT governance and best practices',
+      'Ongoing monitoring and reporting'
     ],
     process: [
       {
         title: 'Planning',
-        description: 'We define the technical requirements, architecture, and development approach based on your needs.'
+        description: 'We define the scope and objectives of the audit, ensuring alignment with your business goals.'
       },
       {
-        title: 'Development',
-        description: 'We write clean, efficient code to build the frontend and backend of your website or application.'
+        title: 'Data Collection',
+        description: 'We gather relevant data and documentation to assess your IT systems, processes, and security measures.'
       },
       {
-        title: 'Integration',
-        description: 'We connect your website with third-party services, APIs, and databases to extend functionality.'
+        title: 'Analysis',
+        description: 'We analyze the collected data to identify vulnerabilities, compliance gaps, and areas for improvement.'
       },
       {
-        title: 'Testing',
-        description: 'We thoroughly test for functionality, performance, security, and compatibility across devices and browsers.'
+        title: 'Reporting',
+        description: 'We provide a detailed report with findings, recommendations, and an action plan for remediation.'
       },
       {
-        title: 'Deployment & Support',
-        description: 'We launch your website and provide ongoing maintenance and support to ensure optimal performance.'
+        title: 'Follow-Up',
+        description: 'We assist with implementing recommendations and provide ongoing support to ensure compliance and security.'
       }
     ],
     benefits: [
       {
+        icon: BarChart,
+        title: 'Risk Mitigation',
+        description: 'Identifying vulnerabilities and compliance gaps helps reduce the risk of data breaches and legal issues.'
+      },
+      {
         icon: Database,
-        title: 'Scalable Solutions',
-        description: 'Our development practices ensure your website can grow with your business and handle increasing traffic.'
+        title: 'Improved Security',
+        description: 'Regular audits enhance your security posture, protecting sensitive data and maintaining customer trust.'
       },
       {
         icon: Laptop,
-        title: 'Custom Functionality',
-        description: 'Custom development allows for unique features and workflows tailored to your specific business needs.'
+        title: 'Regulatory Compliance',
+        description: 'Ensuring compliance with industry standards and regulations reduces the risk of penalties and legal action.'
       },
       {
         icon: LineChart,
-        title: 'Improved Performance',
-        description: 'Optimized code and advanced techniques result in faster loading times and better user experiences.'
+        title: 'Operational Efficiency',
+        description: 'Identifying inefficiencies in IT processes leads to improved performance and cost savings.'
+      }
+    ]
+    
+  },
+  {
+    id: 'data-visualization',
+    title: 'Data Visualization',
+    shortDescription: 'Transform complex data into clear, actionable insights with our data visualization services.',
+    description: 'We create interactive dashboards and reports that make data easy to understand and act upon.',
+    fullDescription: 'Our data visualization service helps you turn complex data into clear, actionable insights. We design interactive dashboards and reports that make it easy to understand trends, patterns, and key performance indicators. Our goal is to empower your team with the tools they need to make informed decisions based on data-driven insights.',
+    icon: BarChart,
+    imageUrl: 'https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    keyPoints: [
+      'Custom dashboard design and development',
+      'Interactive data visualizations',
+      'Real-time data integration',
+      'Data storytelling and reporting',
+      'User training and support',
+      'Ongoing maintenance and updates'
+    ],
+    process: [
+      {
+        title: 'Data Assessment',
+        description: 'We evaluate your data sources and requirements to determine the best approach for visualization.'
       },
       {
-        icon: ShoppingBag,
-        title: 'Enhanced Security',
-        description: 'We implement robust security measures to protect your website and user data from threats.'
+        title: 'Design & Prototyping',
+        description: 'We create wireframes and prototypes to visualize the layout and functionality of your dashboards.'
+      },
+      {
+        title: 'Development',
+        description: 'We build interactive dashboards and reports that integrate with your data sources and provide real-time insights.'
+      },
+      {
+        title: 'Testing & Validation',
+        description: 'We thoroughly test the dashboards to ensure accuracy, performance, and usability.'
+      },
+      {
+        title: 'Training & Support',
+        description: 'We provide training and ongoing support to help your team effectively use the dashboards.'
+      }
+    ],
+    benefits: [
+      {
+        icon: LineChart,
+        title: 'Enhanced Decision-Making',
+        description: 'Visualizing data helps identify trends and patterns, enabling better decision-making based on insights.'
+      },
+      {
+        icon: Database,
+        title: 'Improved Data Understanding',
+        description: 'Interactive visualizations make complex data more accessible and easier to understand for all stakeholders.'
+      },
+      {
+        icon: BarChart,
+        title: 'Real-Time Insights',
+        description: 'Dashboards provide real-time data updates, allowing for timely responses to changing conditions.'
+      },
+      {
+        icon: Laptop,
+        title: 'Increased Engagement',
+        description: 'Interactive dashboards encourage user engagement and exploration of data, leading to deeper insights.'
       }
     ]
   },

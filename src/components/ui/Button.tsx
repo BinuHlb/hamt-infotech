@@ -33,7 +33,7 @@ const Button: React.FC<ButtonProps> = ({
   type = 'button',
 }) => {
   const baseClasses = clsx(
-    'inline-flex items-center justify-center rounded-md font-medium transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2',
+    'inline-flex h-full items-center justify-center rounded-md font-medium transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2',
     {
       'bg-primary-600 hover:bg-primary-700 text-white focus:ring-primary-500 dark:bg-primary-500 dark:hover:bg-primary-600': variant === 'primary',
       'bg-secondary-600 hover:bg-secondary-700 text-white focus:ring-secondary-500 dark:bg-secondary-500 dark:hover:bg-secondary-600': variant === 'secondary',

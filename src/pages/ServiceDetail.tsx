@@ -37,7 +37,7 @@ const ServiceDetail: React.FC = () => {
       exit="exit"
     >
       {/* Service Header */}
-      <div className="bg-primary-900 text-white pt-40 pb-20">
+      <div className="bg-gray-800 text-white pt-40 pb-20">
         <div className="container">
           <div className="max-w-3xl">
             <div className="mb-6 inline-flex items-center justify-center w-20 h-20 rounded-lg bg-primary-800/50 text-primary-300">

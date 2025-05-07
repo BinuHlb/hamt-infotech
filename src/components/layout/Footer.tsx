@@ -24,7 +24,7 @@ const Footer: React.FC = () => {
               <span>HamtInfotech</span>
             </Link>
             <p className="mb-4 max-w-xs">
-              We craft stunning digital experiences that captivate your audience and elevate your brand.
+            An IT support and solutions company, providing high-quality enterprise solutions, digital transformation, and cybersecurity services for businesses of all sizes. 
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-400 hover:text-primary-400 transition-colors duration-300">
@@ -93,22 +93,22 @@ const Footer: React.FC = () => {
             <ul className="space-y-4">
               <li className="flex items-start">
                 <MapPin className="h-5 w-5 text-primary-400 mr-2 mt-1 flex-shrink-0" />
-                <span>123 Creative Avenue, Design District, CA 91234</span>
+                <span>Level 16, City Tower 2, Sheikh Zayed Road Post Box No. 32665, Dubai – U.A.E</span>
               </li>
               <li className="flex items-center">
                 <Phone className="h-5 w-5 text-primary-400 mr-2 flex-shrink-0" />
-                <span>(555) 123-4567</span>
+                <span>+971 4327 7775</span>
               </li>
               <li className="flex items-center">
                 <Mail className="h-5 w-5 text-primary-400 mr-2 flex-shrink-0" />
-                <span>hello@creativex.studio</span>
+                <span>info@hamtinfotech.com</span>
               </li>
             </ul>
           </div>
         </div>
         
         <div className="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
-          <p>&copy; {currentYear} CreativeX Studio. All rights reserved.</p>
+          <p>&copy; {currentYear} HamtInfotech. All rights reserved.</p>
           <div className="mt-4 md:mt-0 flex space-x-8">
             <Link to="/privacy" className="hover:text-primary-400 transition-colors duration-300">
               Privacy Policy

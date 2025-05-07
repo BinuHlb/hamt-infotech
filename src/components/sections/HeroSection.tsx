@@ -45,7 +45,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({
   };
 
   return (
-    <section className="relative min-h-screen flex items-center pt-24 pb-16 overflow-hidden">
+    <section className="relative h-[80vh] flex items-center pt-24 pb-16 overflow-hidden">
       {/* Background video or image */}
       {backgroundVideo ? (
         <video
@@ -70,7 +70,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({
       ) : null}
 
       {/* Gradient overlay */}
-      <div className="absolute inset-0 bg-gradient-to-br from-primary-900/90 via-gray-800/90 to-gray-900/80 z-10" />
+      <div className="absolute inset-0 bg-gradient-to-br from-gray-900/90 via-gray-800/90 to-gray-900/10 z-10" />
 
       {/* Content */}
       <div className="container relative z-20">
@@ -100,7 +100,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({
           >
             <Button 
               to={primaryButtonLink} 
-              variant="accent" 
+              variant="primary" 
               size="lg"
               icon={<ArrowUpRight size={18} />}
               iconPosition="right"

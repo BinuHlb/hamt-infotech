@@ -25,12 +25,13 @@ function App() {
 
   useEffect(() => {
     // Simulate initial loading
+    window.scrollTo(0, 0);
     const timer = setTimeout(() => {
       setLoading(false);
     }, 2000);
 
     return () => clearTimeout(timer);
-  }, []);
+  }, [location.pathname]);
 
   return (
     <ThemeProvider>

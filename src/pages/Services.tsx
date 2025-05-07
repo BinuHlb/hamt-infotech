@@ -22,7 +22,7 @@ const Services: React.FC = () => {
       exit="exit"
     >
       {/* Page Header */}
-      <div className="bg-primary-900 text-white pt-40 pb-20">
+      <div className="bg-gray-800 text-white pt-40 pb-20">
         <div className="container">
           <div className="max-w-3xl">
             <h1 className="mb-6">Our Services</h1>

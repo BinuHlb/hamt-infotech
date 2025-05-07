@@ -16,65 +16,51 @@ const About: React.FC = () => {
   const teamMembers = [
     {
       id: 1,
-      name: 'Sarah Johnson',
-      role: 'Founder & Creative Director',
-      image: 'https://images.pexels.com/photos/2381069/pexels-photo-2381069.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-      bio: 'Sarah has over 15 years of experience in design and creative direction.',
+      name: 'Manoj',
+      role: 'Senior Partner',
+      image: 'https://hamtinfotech.com/wp-content/uploads/2024/10/Manoj-Kumar-2.webp',
+      bio: '',
     },
     {
       id: 2,
-      name: 'Michael Chen',
-      role: 'Lead Developer',
-      image: 'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-      bio: 'Michael brings technical expertise and a passion for clean, efficient code.',
+      name: 'Vimal Rama Chandran',
+      role: 'Director Technology',
+      image: 'https://hamtinfotech.com/wp-content/uploads/2024/10/Vimal-R.webp',
+      bio: '',
     },
     {
       id: 3,
-      name: 'Alex Rivera',
-      role: 'UI/UX Designer',
-      image: 'https://images.pexels.com/photos/3760819/pexels-photo-3760819.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-      bio: 'Alex creates intuitive user experiences and beautiful interfaces.',
+      name: 'Jayaraj',
+      role: 'Senior Manager ERP',
+      image: 'https://hamtinfotech.com/wp-content/uploads/2024/10/Jairaj2-scaled-1-1024x1024.webp',
+      bio: '',
     },
     {
       id: 4,
-      name: 'Emma Wilson',
-      role: 'Marketing Strategist',
-      image: 'https://images.pexels.com/photos/3796217/pexels-photo-3796217.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-      bio: 'Emma develops marketing strategies that drive growth and engagement.',
+      name: 'Bala',
+      role: 'Business Head - Digital Transformation',
+      image: 'https://hamtinfotech.com/wp-content/uploads/2024/10/1702885309079.webp',
+      bio: '',
     },
   ];
 
   const coreValues = [
     { 
       icon: <Shield size={32} />,
-      title: 'Integrity',
-      description: 'We believe in transparent communication and always doing what\'s right for our clients.'
+      title: 'Critical thinking',
+      description: 'We tackle the most complex challenges for some of the world’s leading brands. Through close collaboration and unwavering commitment, we deliver successful outcomes for each and every client.'
     },
     { 
       icon: <Lightbulb size={32} />,
-      title: 'Innovation',
-      description: 'We push boundaries and explore new solutions to deliver unique and effective results.'
+      title: 'Stewardship',
+      description: 'We support one another on our journey to success by fostering a culture of accountability and care. Embracing a &#39;see it, own it, solve it, do it&#39; mindset, we take responsibility and act with purpose.'
     },
     { 
       icon: <Users size={32} />,
-      title: 'Collaboration',
-      description: 'We work closely with our clients, valuing their input throughout the creative process.'
+      title: 'An Underdog Spirit',
+      description: 'We are determined, resourceful, spirited, resilient, and tenacious. We challenge conventional thinking, never accept &#39;no&#39; as the final answer, and embrace every challenge with unwavering optimism.'
     },
-    { 
-      icon: <Zap size={32} />,
-      title: 'Excellence',
-      description: 'We strive for the highest standards in everything we create, down to the smallest detail.'
-    },
-    { 
-      icon: <Award size={32} />,
-      title: 'Quality',
-      description: 'We deliver polished, professional work that stands the test of time.'
-    },
-    { 
-      icon: <Target size={32} />,
-      title: 'Results',
-      description: 'We focus on creating solutions that achieve real business goals and measurable outcomes.'
-    },
+    
   ];
 
   return (
@@ -85,12 +71,12 @@ const About: React.FC = () => {
       exit="exit"
     >
       {/* Page Header */}
-      <div className="bg-primary-900 text-white pt-40 pb-20">
+      <div className="bg-gray-800 text-white pt-40 pb-20">
         <div className="container">
           <div className="max-w-3xl">
             <h1 className="mb-6">About Our Agency</h1>
             <p className="text-xl text-gray-200 mb-0">
-              We're a team of passionate creatives dedicated to transforming brands through strategic design and development.
+            We're a team of technology experts passionate about helping businesses succeed in the digital age.
             </p>
           </div>
         </div>
@@ -103,15 +89,15 @@ const About: React.FC = () => {
             <div>
               <SectionHeading 
                 title="Our Story" 
-                subtitle="From humble beginnings to industry recognition, our journey has been defined by creativity and innovation."
+                subtitle="HAMT Infotech is a global technology solutions provider, born from a legacy of excellence in business advisory. "
               />
               
               <p className="text-gray-600 dark:text-gray-300 mb-6">
-                Founded in 2012, CreativeX began as a small design studio with a big vision. Our founder, Sarah Johnson, set out to create an agency that would blend strategic thinking with beautiful design to help brands make a meaningful impact.
+              Our story began in 2007 as the IT and business consulting arm of HLB HAMT, a leading Audit and Tax advisory firm in the UAE. Initially focused on addressing internal IT needs — including enterprise application development, process automation, digital transformation, CRM, and IT audits — we quickly became a catalyst for innovation within the organisation.
               </p>
               
               <p className="text-gray-600 dark:text-gray-300">
-                Over the years, we've grown into a full-service creative agency, bringing together talented designers, developers, and strategists who share a passion for creating exceptional digital experiences. Today, we work with clients across industries, from startups to global brands, helping them stand out in a crowded digital landscape.
+              Recognising the growing demand for high-impact technology solutions across industries, the leadership made a pivotal decision in 2012 to establish HAMT Infotech as an independent entity. This marked the beginning of our journey as a technology company with a clear purpose: to help businesses around the world transform through innovation, intelligence, and integrity.
               </p>
             </div>
             
@@ -123,7 +109,7 @@ const About: React.FC = () => {
               />
               
               <div className="absolute -bottom-6 -right-6 bg-white dark:bg-gray-800 p-4 rounded-lg shadow-lg">
-                <p className="font-bold text-primary-600 dark:text-primary-400 text-2xl">10+ Years</p>
+                <p className="font-bold text-primary-600 dark:text-primary-400 text-2xl">15+ Years</p>
                 <p className="text-gray-600 dark:text-gray-300">of excellence</p>
               </div>
             </div>
@@ -176,8 +162,8 @@ const About: React.FC = () => {
       <section className="section">
         <div className="container">
           <SectionHeading 
-            title="Our Core Values" 
-            subtitle="The principles that guide our work and relationships"
+            title="Our Solutions-centric Expertise" 
+            subtitle="These core principles guide our work and define our culture."
             center={true}
           />
           
