@@ -129,7 +129,7 @@ const About: React.FC = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <Card>
               <div className="p-8">
-                <div className="w-16 h-16 rounded-full bg-primary-100 dark:bg-primary-900/30 flex items-center justify-center text-primary-600 dark:text-primary-400 mb-6">
+                <div className="w-16 h-16 rounded-full bg-primary-500 dark:bg-primary-900/30 flex items-center justify-center text-white dark:text-primary-400 mb-6">
                   <Target size={32} />
                 </div>
                 
@@ -143,7 +143,7 @@ const About: React.FC = () => {
             
             <Card>
               <div className="p-8">
-                <div className="w-16 h-16 rounded-full bg-primary-100 dark:bg-primary-900/30 flex items-center justify-center text-primary-600 dark:text-primary-400 mb-6">
+                <div className="w-16 h-16 rounded-full bg-primary-500 dark:bg-primary-900/30 flex items-center justify-center text-white dark:text-primary-400 mb-6">
                   <Lightbulb size={32} />
                 </div>
                 
@@ -171,7 +171,7 @@ const About: React.FC = () => {
             {coreValues.map((value, index) => (
               <Card key={index} delay={index}>
                 <div className="p-6">
-                  <div className="w-12 h-12 rounded-full bg-primary-100 dark:bg-primary-900/30 flex items-center justify-center text-primary-600 dark:text-primary-400 mb-4">
+                  <div className="w-12 h-12 rounded-full bg-primary-500 dark:bg-primary-900/30 flex items-center justify-center text-white dark:text-primary-400 mb-4">
                     {value.icon}
                   </div>
                   
