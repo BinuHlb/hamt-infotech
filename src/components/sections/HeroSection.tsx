@@ -70,12 +70,12 @@ const HeroSection: React.FC<HeroSectionProps> = ({
       ) : null}
 
       {/* Gradient overlay */}
-      <div className="absolute inset-0 bg-gradient-to-br from-gray-900/90 via-gray-800/90 to-gray-900/10 z-10" />
+      <div className="absolute inset-0 bg-gradient-to-br from-gray-900/20 via-gray-800/90 to-gray-900/20 z-10 " />
 
       {/* Content */}
-      <div className="container relative z-20">
+      <div className="container relative z-20 text-center">
         <motion.div
-          className="max-w-3xl"
+          className="max-w-3xl mx-auto text-center"
           variants={containerVariants}
           initial="hidden"
           animate="visible"
@@ -88,14 +88,14 @@ const HeroSection: React.FC<HeroSectionProps> = ({
           </motion.h1>
           
           <motion.p 
-            className="text-gray-200 text-xl mb-10 max-w-2xl"
+            className="text-gray-200 text-xl mb-10"
             variants={itemVariants}
           >
             {subtitle}
           </motion.p>
           
           <motion.div 
-            className="flex flex-wrap gap-4"
+            className="flex flex-wrap gap-4 justify-center"
             variants={itemVariants}
           >
             <Button 

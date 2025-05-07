@@ -16,11 +16,11 @@ const CTASection: React.FC = () => {
       <div className="absolute inset-0 bg-gradient-to-r from-primary-600 to-primary-600 z-0" />
       
       {/* Decorative shapes */}
-      <div className="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none z-0">
-        <div className="absolute -top-24 -right-24 w-96 h-96 rounded-full bg-primary-500 opacity-20 blur-3xl" />
-        <div className="absolute top-1/2 -left-24 w-80 h-80 rounded-full bg-secondary-500 opacity-20 blur-3xl" />
-        <div className="absolute -bottom-32 right-1/3 w-64 h-64 rounded-full bg-accent-500 opacity-20 blur-3xl" />
-      </div>
+      {/* <div className="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none z-0">
+        <div className="absolute -top-24 -right-24 w-96 h-96 rounded-full bg-yellow-600 opacity-20 blur-3xl" />
+        <div className="absolute top-1/2 -left-24 w-80 h-80 rounded-full bg-blue-500 opacity-20 blur-3xl" />
+        <div className="absolute -bottom-32 right-1/3 w-64 h-64 rounded-full bg-secondary-600 opacity-20 blur-3xl" />
+      </div> */}
       
       <div className="container relative z-10">
         <motion.div 

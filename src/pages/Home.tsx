@@ -36,7 +36,7 @@ const Home: React.FC = () => {
       <PortfolioSection compact={true} />
       
       <TestimonialsSection />
-      
+      <PartnersSlider />
       <CTASection />
     </motion.div>
   );
