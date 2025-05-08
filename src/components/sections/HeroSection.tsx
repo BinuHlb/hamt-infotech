@@ -70,7 +70,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({
       ) : null}
 
       {/* Gradient overlay */}
-      <div className="absolute inset-0 bg-gradient-to-br from-gray-900/20 via-gray-800/90 to-gray-900/20 z-10  " />
+      
 
       {/* Content */}
       <div className="container relative z-20 text-center">
