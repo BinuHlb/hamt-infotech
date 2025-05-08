@@ -35,7 +35,7 @@ const partnerLogos = [
               <img
                 src={logo}
                 alt={`Partner ${index + 1}`}
-                className="h-8 mx-auto object-contain filter transition duration-300"
+                className="w-24 h-12 mx-auto object-contain filter transition duration-300"
               />
             </SwiperSlide>
           ))}
