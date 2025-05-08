@@ -37,7 +37,7 @@ const Button: React.FC<ButtonProps> = ({
     {
       'bg-primary-600 hover:bg-primary-700 text-white focus:ring-primary-500 dark:bg-primary-500 dark:hover:bg-primary-600': variant === 'primary',
       'bg-secondary-600 hover:bg-secondary-700 text-white focus:ring-secondary-500 dark:bg-secondary-500 dark:hover:bg-secondary-600': variant === 'secondary',
-      'bg-accent-600 hover:bg-accent-700 text-white focus:ring-accent-500 dark:bg-accent-500 dark:hover:bg-accent-600': variant === 'accent',
+      'bg-gray-900 hover:bg-gray-800 text-white focus:ring-accent-500 dark:bg-accent-500 dark:hover:bg-accent-600': variant === 'accent',
       'border-2 border-primary-600 text-primary-600 hover:bg-primary-50 dark:border-primary-400 dark:text-primary-400 dark:hover:bg-gray-800': variant === 'outline',
       'text-primary-600 hover:bg-primary-50 dark:text-primary-400 dark:hover:bg-gray-800': variant === 'ghost',
       'px-3 py-1.5 text-sm': size === 'sm',
