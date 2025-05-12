@@ -35,7 +35,7 @@ const Contact: React.FC = () => {
       <section className="section bg-white dark:bg-gray-900 p-0">
         <div className="w-full h-96 bg-gray-300 dark:bg-gray-700">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387193.3059445135!2d-74.25986613799748!3d40.69714941774136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2s!4v1659461762138!5m2!1sen!2s"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3609.522703248621!2d55.277170974769774!3d25.21931383080571!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f5c92e6af9f9d%3A0x7e0e3221c4f68966!2sHLB%20HAMT-%20Audit%20Tax%20Advisory!5e0!3m2!1sen!2sin!4v1747022103987!5m2!1sen!2sin"
             width="100%"
             height="100%"
             style={{ border: 0 }}
