@@ -96,7 +96,7 @@ const AboutSection: React.FC = () => {
             {/* Main image */}
             <div className="rounded-xl overflow-hidden shadow-xl">
               <img 
-                src="https://hamtinfotech.com/wp-content/uploads/2024/10/h1-mask2-1.png" 
+                src="assets/images/abt-img.jpg" 
                 alt="Creative team working together" 
                 className="w-full h-auto object-cover"
               />
