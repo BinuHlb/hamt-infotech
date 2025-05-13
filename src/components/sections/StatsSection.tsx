@@ -50,7 +50,7 @@ const StatItem: React.FC<StatItemProps> = ({ icon, value, label, suffix = '', de
       transition={{ duration: 0.5, delay: delay * 0.2 }}
     >
       <div className="flex justify-center mb-4">
-        <div className="w-16 h-16 rounded-full bg-primary-100 dark:bg-primary-900/30 flex items-center justify-center text-primary-600 dark:text-primary-400">
+        <div className="w-16 h-16 rounded-full bg-primary-50 dark:bg-primary-500 flex items-center justify-center text-primary-500 dark:text-primary-100">
           {icon}
         </div>
       </div>
